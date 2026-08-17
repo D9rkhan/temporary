@@ -2,7 +2,7 @@
     background-color: RGB(246,246,246);
     font-size: 20px;
     color: green;
-    
+    margin: 0;
 }
 
 .header a{
@@ -22,8 +22,21 @@ button{
     background-color: RGB(57,139,212);
     color: white;
     padding: 9px;
+    cursor: pointer;
 }
 
-.article1, .article2{
+.article1, .article2 button{
     
+}
+
+.js-logo{
+    width: 400px;
+}
+
+.ai-logo{
+    width: 250px;
+}
+
+.java-logo{
+    width: 400px;
 }
