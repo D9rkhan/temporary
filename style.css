@@ -1,0 +1,18 @@
+.header{
+    background-color: RGB(246,246,246);
+    font-size: 20px;
+    color: green;
+    
+}
+
+.header a{
+    text-decoration: none;
+    color: RGB(170,170,170);
+    padding: 30px;
+}
+
+.promo-block{
+    background-color: RGB(240,240,240);
+    margin: 1%;
+    padding-left: 1%;
+}
