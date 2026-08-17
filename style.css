@@ -13,6 +13,17 @@
 
 .promo-block{
     background-color: RGB(240,240,240);
-    margin: 1%;
-    padding-left: 1%;
+    margin: 10px;
+    padding-left: 50px;
+}
+
+button{
+    border-radius: 7px;
+    background-color: RGB(57,139,212);
+    color: white;
+    padding: 9px;
+}
+
+.article1, .article2{
+    
 }
