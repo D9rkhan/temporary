@@ -1,8 +1,15 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
 .header{
     background-color: RGB(246,246,246);
     font-size: 20px;
-    color: green;
-    margin: 0;
+    padding: 10px;
 }
 
 .header a{
@@ -13,8 +20,9 @@
 
 .promo-block{
     background-color: RGB(240,240,240);
-    margin: 10px;
-    padding-left: 50px;
+    margin: 10px 20px 0px 20px;
+    padding: 10px 0px 10px 67px;
+    border-radius: 7px;
 }
 
 button{
@@ -25,18 +33,28 @@ button{
     cursor: pointer;
 }
 
-.article1, .article2 button{
-    
+.article1, 
+.article2{
+    padding-left: 40px;
 }
 
-.js-logo{
-    width: 400px;
+.article1 button,
+.article2 button{
+    margin-left: 93%;
 }
 
-.ai-logo{
-    width: 250px;
+.gallery img{
+    width: 300px;
+    /* padding: 0px 100px 0px 100px; */
+    margin: 0px 150px 0px 150px;
 }
 
-.java-logo{
-    width: 400px;
+.gallery button{
+    margin-left: 50%;
+}
+
+.footer{
+    background-color: RGB(246,246,246);
+    margin-top: 40px;
+    padding: 20px;
 }
