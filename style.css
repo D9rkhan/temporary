@@ -21,7 +21,8 @@ body{
 .promo-block{
     background-color: RGB(240,240,240);
     margin: 10px 20px 0px 20px;
-    padding: 10px 0px 10px 67px;
+    padding: 10px 0px 20px 67px;
+    /* Поставил padding bot и right такими размера потому что по картинке так оно совпадает, в случае чего дайте знать */
     border-radius: 7px;
 }
 
@@ -35,26 +36,45 @@ button{
 
 .article1, 
 .article2{
-    padding-left: 40px;
+    padding: 0px 40px;
+    font-size: 16px;
+}
+
+.article1 p,
+.article2 p{
+    line-height: 20px;
 }
 
 .article1 button,
 .article2 button{
-    margin-left: 93%;
+    display: block;
+    margin-left: auto;
+}
+
+hr{
+    margin: 20px 20px;
+}
+
+.gallery{
+    text-align: center;
+    padding: 0px 20px;
 }
 
 .gallery img{
-    width: 300px;
-    /* padding: 0px 100px 0px 100px; */
-    margin: 0px 150px 0px 150px;
+    width: 20%;
+    margin: 0px 1%;
+    border-radius: 5px;
 }
 
-.gallery button{
-    margin-left: 50%;
+.gallery-button{
+    text-align: center;
+    margin-top: 15px;
 }
 
 .footer{
     background-color: RGB(246,246,246);
-    margin-top: 40px;
-    padding: 20px;
+    margin-top: 60px;
+    padding: 20px 45px;
+    color: RGB(150, 150, 150);
+    font-size: 14px;
 }
